@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'preview', widget: 'string' }
+      - { label: 'SEO Description', name: 'seo_desc', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'content/pages'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
+      - { label: 'Description', name: 'preview', widget: 'string' }
+      - { label: 'SEO Description', name: 'seo_desc', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
