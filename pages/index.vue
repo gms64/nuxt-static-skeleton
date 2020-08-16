@@ -8,8 +8,11 @@
       <p>
         Starter Template for a Nuxt-based Blog
       </p>
-      <button class="button-primary" onclick="window.location.href='https://github.com/gms64/nuxt-static-skeleton';">See the Repo</button>
-      <span class="sm-txt"><em></em></span>
+      <a class="no-highlighter" href="https://github.com/gms64/nuxt-static-skeleton" target="_blank">
+        <button class="button-primary">
+          See the Repo
+        </button>
+      </a>
 
     </div>
     <!-- This is used to load the netlify identity widget so you can use Netlify CMS -->

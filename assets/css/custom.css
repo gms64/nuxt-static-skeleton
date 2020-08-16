@@ -80,3 +80,7 @@ You can change / add any elements here
   opacity: 0;
   transform: translate(-2em, 0);
 }
+
+.main-content a.no-highlighter {
+  background: none;
+}
