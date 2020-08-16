@@ -19,7 +19,7 @@ Skeleton project for creating a blog with Nuxt-Content and Netlify CMS.
 - Google Fonts (Header / Body Text can be defined separately)
 - [Flexbox Grid](http://flexboxgrid.com/)
 - Modified [Skeleton CSS](http://getskeleton.com/)
-- Google Analytics (Turned on by default, you can add an id in a .env file or declare via Netlify)
+- Google Analytics (Turned on by default, you can add your id in the `nuxt.config.js` file)
 - Netlify CMS for in-browser editing (at /admin) once the site is deployed
 - Interactive Editor from nuxt-content when running the dev server
 - SEO Title / Description separation for better SEO control
