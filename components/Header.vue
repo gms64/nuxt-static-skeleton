@@ -2,7 +2,7 @@
     <header class="header">
       <nuxt-link to="/" class="logo">
         <!-- Update your site logo text -->
-        g<span class="txt-color">/</span>d
+        nss
       </nuxt-link>
       <input class="menu-btn" type="checkbox" id="menu-btn" v-model="menuChecked"/>
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>

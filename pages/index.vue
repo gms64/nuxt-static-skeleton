@@ -3,12 +3,13 @@
     <div class="u-full-width">
       <h1 class="site-title">
           <!-- Define Custom Site title or completely change the page -->
-          greg<span class="txt-color">/</span>data
+          nuxt<span class="txt-color"> static </span>skeleton
       </h1>
       <p>
-        infrequently updated musings of a confused developer / data scientist
+        Starter Template for a Nuxt-based Blog
       </p>
-      <span class="sm-txt"><em>I wouldn't read too much into anything here...</em></span>
+      <button class="button-primary" onclick="window.location.href='https://github.com/gms64/nuxt-static-skeleton';">See the Repo</button>
+      <span class="sm-txt"><em></em></span>
 
     </div>
     <!-- This is used to load the netlify identity widget so you can use Netlify CMS -->
