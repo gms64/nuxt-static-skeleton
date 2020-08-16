@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <div class="container-fluid">
         <div class="row middle-xs">
             <div class="col-xs-4 center-xs middle-xs">
               <div class="box">
@@ -25,5 +26,6 @@
               </div>
             </div>
         </div>
+    </div>
   </footer>
 </template>

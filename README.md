@@ -45,6 +45,14 @@ Examples:
     * You *should* now be able to sign up / log in with an email. I've had issues with that configuration so I update to a Github sign-in.  You have to configure that in the 'External Providers' option. You then have to go down to 'Git Gateway' services and enable that.
     * Configure Registration - would recommend changing Registration Preferences to 'Invite Only'. You can change that once you log in yourself.
 
+If you don't want dark mode, you can remove these lines from the `layouts/default.vue` file
+    head: { 
+        htmlAttrs: {
+        class: 'dark-mode'
+        }
+    },
+
+
 ## Notes
 
 Built with:

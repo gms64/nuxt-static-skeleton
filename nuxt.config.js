@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   target: 'static',
@@ -47,9 +46,9 @@ export default {
   */
   buildModules: [
     '@nuxtjs/dotenv',
-    // ['@nuxtjs/google-analytics', {
-    //   id: 'UA-XXXXXXXXX-2'
-    // }]
+    ['@nuxtjs/google-analytics', {
+      id: process.env.GOOGLE_ANALYTICS_ID || 'UA-XXXXXXXXX-1'
+    }]
   ],
   /*
   ** Nuxt.js modules
