@@ -42,25 +42,19 @@
   --bg: #ffffff;
   --bg-secondary: #f8f8f8;
   --border-color: #ddd;
-  --underline-color: #37ff1436; /* Note this color has opacity */
+  --underline-color: #00ffff1f; /* Note this color has opacity */
   --btn-primary-color: #ffffff;
 }
 
 .dark-mode {
   --color: #ececec;
-  --color-primary: #00ffff;
+  --color-primary: #39ff14;
   --bg: #011114;
   --bg-secondary: #032229;
   --border-color: #0d2538;
   --btn-primary-color: #243746;
 }
-.sepia-mode {
-  --color: #433422;
-  --color-primary: #086375;
-  --bg: #f1e7d0;
-  --bg-secondary: #eae0c9;
-  --border-color: #ded0bf;
-}
+
   
   
   /* Base Styles
@@ -195,6 +189,7 @@
   select {
     height: 38px;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    color: var(--color);
     background-color: var(--bg);
     border: 1px solid var(--border-color);
     border-radius: 4px;

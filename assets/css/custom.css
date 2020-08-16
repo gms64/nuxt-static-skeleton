@@ -55,10 +55,6 @@ You can change / add any elements here
   filter: invert(99%) sepia(88%) saturate(30%) hue-rotate(178deg) brightness(113%) contrast(91%);
 }
 
-.sepia-mode .icon-filter {
-  filter: invert(18%) sepia(4%) saturate(5021%) hue-rotate(352deg) brightness(100%) contrast(90%);
-}
-
 /* Minor change to work with Flexbox grid */
 .main-content .container,
 .main-content .container-fluid {

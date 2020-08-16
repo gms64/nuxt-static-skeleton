@@ -20,6 +20,11 @@ export default {
     Header,
     Footer
   },
+  head: { 
+    htmlAttrs: {
+      class: 'dark-mode'
+    }
+  },
   data() {
     return {
       menuChecked: false

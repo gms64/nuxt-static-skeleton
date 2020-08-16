@@ -47,10 +47,9 @@ export default {
   */
   buildModules: [
     '@nuxtjs/dotenv',
-    '@nuxtjs/color-mode',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-174474647-2'
-    }]
+    // ['@nuxtjs/google-analytics', {
+    //   id: 'UA-XXXXXXXXX-2'
+    // }]
   ],
   /*
   ** Nuxt.js modules
