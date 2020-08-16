@@ -36,11 +36,11 @@ Built with:
 
 1. Fork the Repository
 2. Run `npm install` to install the current dependencies
-..* Optional: Run `npm run dev` to start a local development server
+    * Optional: Run `npm run dev` to start a local development server
 3. Link to Github. Create a new empty repo (in browser or CLI). Run `git init` to initiate a new project.  Add a remote connection (whatever URL github gave you). `git remote add origin https://github.com/[your-username]/[your-repo-name].git`.
-..* To add all files to the project, run `git add *`, then run `git commit -m '[your message here]`
-..* To push files to github, run `git push -u origin master`
+    * To add all files to the project, run `git add *`, then run `git commit -m '[your message here]`
+    * To push files to github, run `git push -u origin master`
 4. Sign up for Netlify, link to your github.
 5. In netlify options,  define:
-..* build command: `npm run generate`
-..* publish directory: `dist`
+    * build command: `npm run generate`
+    * publish directory: `dist`
