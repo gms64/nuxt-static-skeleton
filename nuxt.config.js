@@ -47,7 +47,7 @@ export default {
   buildModules: [
     '@nuxtjs/dotenv',
     ['@nuxtjs/google-analytics', {
-      id: process.env.GOOGLE_ANALYTICS_ID || 'UA-XXXXXXXXX-1'
+      id: 'UA-174474647-3'
     }]
   ],
   /*
