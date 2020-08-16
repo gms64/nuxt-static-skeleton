@@ -2,6 +2,10 @@
 
 Skeleton project for creating a blog with Nuxt-Content and Netlify CMS.
 
+Examples:
+- Project Site: https://nuxt-static-skeleton.netlify.app/
+- [greg on data](https://gregondata.com/) - personal site of the developer
+
 ## Notes
 
 Built with:
@@ -9,7 +13,7 @@ Built with:
 - [Nuxt](https://nuxtjs.org/)
     - [nuxt-content](https://content.nuxtjs.org/)
     - [nuxt-dotenv](https://github.com/nuxt-community/dotenv-module)
-    - [vue-moment](https://github.com/brockpetrie/vue-moment)
+    - [vue-moment](https://github.com/brockpetrie/vue-moment) - For Date formatting
 - [Skeleton CSS](http://getskeleton.com/)
     - Adapted CSS from Skeleton and renamed it to pile-of-bones.css.  Mainly because it's a mess. :)
 - [Netlify](https://www.netlify.com/)
@@ -44,3 +48,6 @@ Built with:
 5. In netlify options,  define:
     * build command: `npm run generate`
     * publish directory: `dist`
+6. In Netlify Settings, go to the Identity Tab and click the 'Enable Identity' button.
+    * You *should* now be able to sign up / log in with an email. I've had issues with that configuration so I update to a Github sign-in.  You have to configure that in the 'External Providers' option. You then have to go down to 'Git Gateway' services and enable that.
+    * Configure Registration - would recommend changing Registration Preferences to 'Invite Only'. You can change that once you log in yourself.

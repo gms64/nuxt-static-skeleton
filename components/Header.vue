@@ -9,8 +9,8 @@
       <ul class="menu">
         <!-- Page Links -->
         <li><nuxt-link to="/blog" @click.native="menuChecked=false">blog</nuxt-link></li>
-        <li><nuxt-link to="/about" @click.native="menuChecked=false">about</nuxt-link></li>
         <li><nuxt-link to="/contact" @click.native="menuChecked=false">contact</nuxt-link></li>
+        <li><nuxt-link to="/about" @click.native="menuChecked=false">about</nuxt-link></li>
       </ul>
     </header>
 </template>
