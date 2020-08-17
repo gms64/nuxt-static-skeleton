@@ -5,7 +5,7 @@ preview: Whoopse friend. Turn off sign up from netlify identity
 seo_desc: Nuxt Static Skeleton - a Nuxt + Netlify combination for creating
   static websites
 ---
-# Nuxt Static Skeleton. Hacked??????????
+# Nuxt Static Skeleton. Hacked?
 
 Skeleton project for creating a blog with Nuxt-Content and Netlify CMS.
 
